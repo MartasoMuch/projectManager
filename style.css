@@ -11,10 +11,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 	display:block;
 }
 
-.overlay2{
-	
-	background-color: rgba(0, 0, 0, 0.6);
-}
+
 html, body {
 	margin-top: -20px;
 	font-family: 'Lato', 
@@ -25,7 +22,7 @@ html, body {
 }
 
 .overlay{
-	background-image: url("back.jpg");
+	background-image: url("back1.jpg");
 	margin: -5px;
 	padding: 0;
 }
