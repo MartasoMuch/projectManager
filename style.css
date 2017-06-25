@@ -47,8 +47,8 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
-	border-bottom: 2px solid #cf8a05;
-	background: #ededed;
+	border-bottom: 2px solid #a15088;
+	background: rgba(193,128,173,0.15);
 }
 
 #name h1 {
@@ -116,7 +116,7 @@ p {
 
 
 section {
-	border-top: 1px solid #dedede;
+	border-top: 1px solid #c180ad;
 	padding: 10px 0 0;
 }
 
@@ -146,13 +146,14 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #cf8a05;
+	color: #802b67;
 }
 
 .sectionContent h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	margin-bottom: -2px;
+	color: #210439;
 }
 
 .subDetails {
