@@ -25,6 +25,10 @@ html, body {
 	margin: -5px;
 	padding: 0;
 }
+
+.overlay1{
+	background-color: rgba(0,0,0,0.75);
+}
 .clear {clear: both;}
 
 p {
@@ -177,7 +181,7 @@ section:last-child {
 	-moz-column-count:4;
 	-webkit-column-count:4;
 	column-count:4;
-	margin-bottom: 10px;
+	
 	font-size: 1em;
 	color: #444;
 }
@@ -206,7 +210,7 @@ section:last-child {
 @media all and (max-width: 601px) {
 	#cv {
 		width: 95%;
-		margin: 10px auto;
+		margin: 15px auto;
 		min-width: 280px;
 	}
 	
@@ -266,6 +270,10 @@ section:last-child {
 @media print {
 	#cv {
 		width: 100%;
+	}
+
+	#mainArea{
+		display: inline-block;
 	}
 
 	.photo1{
